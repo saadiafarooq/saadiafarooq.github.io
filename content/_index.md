@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
-title: ""
-date: 2022-10-24
+title: "Saadia Farooq"
+date: 2025-05-25 
 type: landing
 
 design:
@@ -12,7 +12,7 @@ sections:
   - block: resume-biography-3
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
-      username: admin
+      username: saadia
       text: ""
       # Show a call-to-action button under your biography? (optional)
       button:
