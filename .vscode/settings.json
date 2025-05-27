@@ -15,5 +15,9 @@
         "yzhang",
         "Zakariya",
         "znck"
-    ]
+    ],
+    "debug.javascript.defaultRuntimeExecutable": {
+        "pwa-node": "/Users/aimami/.local/share/mise/shims/node"
+    },
+    "python.defaultInterpreterPath": "/Users/aimami/.local/share/mise/installs/python/3.13.3/bin/python"
 }
