@@ -1,0 +1,51 @@
+{
+    "name": "HugoBlox Academic CV DevContainer",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+        "ghcr.io/devcontainers/features/common-utils:2": {},
+        "ghcr.io/devcontainers/features/git:1": {},
+        "ghcr.io/devcontainers/features/node:1": {
+            "version": "lts"
+        },
+        "ghcr.io/devcontainers/features/go:1": {
+            "version": "latest"
+        },
+        "ghcr.io/devcontainers/features/mise:1": {}
+    },
+    "postCreateCommand": "mise install && mise use -g",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "esbenp.prettier-vscode",
+                "yzhang.markdown-all-in-one",
+                "bierner.markdown-preview-github-styles",
+                "bungcip.better-toml",
+                "znck.grammarly",
+                "streetsidesoftware.code-spell-checker",
+                "github.vscode-pull-request-github"
+            ],
+            "settings": {
+                "editor.formatOnSave": true,
+                "markdown.previewFrontMatter": "show",
+                "cSpell.language": "en",
+                "files.exclude": {
+                    "**/.cache": true,
+                    "**/.hugo_build": true,
+                    "**/node_modules": true,
+                    "**/public": true,
+                    "**/resources": true
+                }
+            }
+        }
+    },
+    "forwardPorts": [
+        1313
+    ],
+    "portsAttributes": {
+        "1313": {
+            "label": "HugoBlox server",
+            "onAutoForward": "openPreview"
+        }
+    },
+    "remoteUser": "vscode"
+}
