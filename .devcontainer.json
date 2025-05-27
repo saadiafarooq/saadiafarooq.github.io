@@ -10,10 +10,7 @@
         "ghcr.io/devcontainers/features/go:1": {
             "version": "latest"
         },
-        "ghcr.io/devcontainers-extra/features/mise:1": {},
-        "ghcr.io/devcontainers/features/hugo:1": {
-            "extended": true
-        }
+        "ghcr.io/devcontainers-extra/features/mise:1": {}
     },
     "postCreateCommand": "mise install && hugo serve -D",
     "customizations": {
