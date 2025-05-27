@@ -1,24 +1,23 @@
 ---
-title: Example Talk
+title: Coexistence of Walnut trees and Marigolds - Being EMPATHETIC to all
 
-event: Hugo Blox Builder Conference
-event_url: https://example.org
+event: TEDxBGSU 2025
+event_url: https://www.bgsu.edu/tedxbgsu.html
 
-location: Hugo Blox Builder HQ
+location: Bowen-Thompson Student Union, Bowling Green State University
+
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
+  city: Bowling Green
+  region: OH
   country: United States
 
-summary: An example talk using Hugo Blox Builder's Markdown slides feature.
-abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
+summary:  This talk was given at a TEDx event using the TED conference format but independently organized by TEDxBGSU. 
 
+abstract: In our daily lives, we are driven to compare ourselves with others and seek respect, influence, and power. This often involves positioning ourselves in relation to others. Additionally, we seek connection through the expression of affection, care, and love, aiming to find a sense of belonging and security. Sometimes, we utilize our status to assist others, whether through teaching, counseling, or parenting. The notions of positioning and connection are omnipresent in our lives. Consider the walnut tree, a magnificent example of nature with its robust and vibrant foliage. However, the substances emitted by walnut trees are toxic to other plants, creating an inhospitable environment around them. In contrast, companion planting, the practice of planting certain vegetables and plants near each other, can be mutually beneficial. For instance, marigolds are excellent companions, offering protection to a wide variety of plants against pests and harmful weeds. Power is often linked to high status, but it can also be interpreted as the ability to influence others. Conversely, our innate desire to connect with others, known as linking, is essential for building meaningful and healthy relationships. Love could be seen as an intensified form of connection.  
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2030-06-01T13:00:00Z'
-date_end: '2030-06-01T15:00:00Z'
+date: '2025-03-19T18:30:00Z'
+#date_end: '2030-06-01T15:00:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
@@ -30,7 +29,7 @@ authors:
 tags: []
 
 # Is this a featured talk? (true/false)
-featured: false
+featured: true
 
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
@@ -41,10 +40,10 @@ image:
 #    icon_pack: fab
 #    name: Follow
 #    url: https://twitter.com/georgecushen
-url_code: 'https://github.com'
-url_pdf: ''
-url_slides: 'https://slideshare.net'
-url_video: 'https://youtube.com'
+#url_code: 'https://github.com'
+#url_pdf: ''
+#url_slides: 'https://slideshare.net'
+url_video: 'https://www.youtube.com/watch?v=1Mmv0TEFG84'
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
@@ -62,14 +61,5 @@ projects:
   - example
 ---
 
-{{% callout note %}}
-Click on the **Slides** button above to view the built-in slides feature.
-{{% /callout %}}
+ {{< youtube 1Mmv0TEFG84 >}}
 
-Slides can be added in a few ways:
-
-- **Create** slides using Hugo Blox Builder's [_Slides_](https://docs.hugoblox.com/reference/content-types/) feature and link using `slides` parameter in the front matter of the talk file
-- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
-- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://docs.hugoblox.com/reference/markdown/).
-
-Further event details, including [page elements](https://docs.hugoblox.com/reference/markdown/) such as image galleries, can be added to the body of this page.
