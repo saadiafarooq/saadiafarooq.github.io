@@ -1,13 +1,12 @@
 ---
-title: "An example journal article"
+title: "Poetic Autoethnography, a Path to Healing, a Way to Turn"
 authors:
 - saadia
-- Robert Ford
 author_notes:
-- "Equal contribution"
-- "Equal contribution"
 date: "2015-09-01T00:00:00Z"
-doi: ""
+doi: "“https://doi.org/10.1080/10510974.2025.2524350”
+
+
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2017-01-01T00:00:00Z"
@@ -18,36 +17,42 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
+publication: "*Communication Studies*(1)"
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: This essay reflects lived experiences revealing the interplay between identity, motherhood, and cultural experience through the lens of poetic autoethnography. Utilizing poetic inquiry as a reflective tool for poetic transcription and analysis, I examine my personal journey as a migrant mother and a graduate student navigating the complexities of dual cultural identities – Pakistani heritage and American societal norms. Central to this exploration are the challenges of social and internal mental health stigma, the pressures of fulfilling familial roles, and the systemic barriers faced by marginalized families in the U.S. Through the framework of art-based research (ABR), poetic autoethnography, and the communication theory of identity; I reflect on my experiences, revealing the multifaceted layers of identity shaped by circumstances and societal expectations. The work highlights the ongoing negotiation of cultural heritage in raising children and pursuing academic aspirations, ultimately underscoring the necessity of understanding one’s identity as fluid and context dependent.
+
+
+
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+# summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags:
+tags: Poetic inquiry, poetic autoethnography, identity, parenting, motherhood, mothers in higher education, Covid Baby
+
+
 - Source Themes
 featured: false
 
-# links:
+links:“https://doi.org/10.1080/10510974.2025.2524350”
+
+
 # - name: ""
 #   url: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
+# url_pdf: http://arxiv.org/pdf/1512.04133v1
+# url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+# url_dataset: ''
+# url_poster: ''
+# url_project: ''
+# url_slides: ''
+# url_source: 'https://doi.org/10.1080/10510974.2025.2524350'
 
-# Featured image
+
 # To use, add an image named `featured.jpg/png` to your page's folder. 
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
-  focal_point: ""
-  preview_only: false
+# image:
+#   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+#   focal_point: ""
+#   preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
