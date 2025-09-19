@@ -1,5 +1,5 @@
 ---
-title: The Change is Here, and the Change is Her: Pakistani American Representation in the Disney+ Series Ms. Marvel
+title: "The Change is Here, and the Change is Her: Pakistani American Representation in the Disney+ Series Ms. Marvel"
 authors:
 - saadia
 - Anna DeGalan
