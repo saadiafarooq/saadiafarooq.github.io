@@ -26,7 +26,7 @@ abstract: This essay reflects lived experiences revealing the interplay between 
 
 
 # Summary. An optional shortened abstract.
-# summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: ""
 
 tags: Poetic inquiry, poetic autoethnography, identity, parenting, motherhood, mothers in higher education, Covid Baby
 
