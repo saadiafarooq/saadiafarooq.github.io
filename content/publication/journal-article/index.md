@@ -28,10 +28,14 @@ abstract: This essay reflects lived experiences revealing the interplay between 
 # Summary. An optional shortened abstract.
 summary: ""
 
-tags: Poetic inquiry, poetic autoethnography, identity, parenting, motherhood, mothers in higher education, Covid Baby
+tags: 
+    - Poetic inquiry
+    - poetic autoethnography
+    - identity, parenting
+    - motherhood
+    - mothers in higher education
+    - Covid Baby
 
-
-- Source Themes
 featured: false
 
 links:“https://doi.org/10.1080/10510974.2025.2524350”
