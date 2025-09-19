@@ -38,11 +38,11 @@ tags:
 
 featured: false
 
-links:“https://doi.org/10.1080/10510974.2025.2524350”
+links:
+- name: "Link"
+  url: "https://doi.org/10.1080/10510974.2025.2524350"
 
 
-# - name: ""
-#   url: ""
 # url_pdf: http://arxiv.org/pdf/1512.04133v1
 # url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
 # url_dataset: ''
