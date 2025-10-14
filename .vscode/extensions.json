@@ -1,0 +1,35 @@
+{
+  "recommendations": [
+    // Hugo development
+    "budparr.language-hugo-vscode",
+    "eliostruyf.vscode-front-matter",
+    
+    // Markdown editing
+    "yzhang.markdown-all-in-one",
+    "bierner.markdown-mermaid",
+    "bierner.markdown-emoji",
+    "davidanson.vscode-markdownlint",
+    
+    // YAML/TOML support
+    "redhat.vscode-yaml",
+    "tamasfe.even-better-toml",
+    
+    // Go modules (for Hugo modules)
+    "golang.go",
+    
+    // Git integration
+    "eamodio.gitlens",
+    
+    // Spell checking
+    "streetsidesoftware.code-spell-checker",
+    
+    // Prettier for formatting
+    "esbenp.prettier-vscode",
+    
+    // Path autocomplete
+    "christian-kohler.path-intellisense",
+    
+    // Live preview
+    "ms-vscode.live-server"
+  ]
+}

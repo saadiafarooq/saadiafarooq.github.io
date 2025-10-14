@@ -1,0 +1,174 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Hugo: Start Server",
+      "type": "shell",
+      "command": "hugo server --disableFastRender --buildDrafts --buildFuture",
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "hugo",
+        "pattern": {
+          "regexp": "^(ERROR|WARN)\\s+(.*)$",
+          "severity": 1,
+          "message": 2
+        },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "^.*Building sites.*$",
+          "endsPattern": "^.*Web Server is available at.*$"
+        }
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "focus": false
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    },
+    {
+      "label": "Hugo: Start Server (Production)",
+      "type": "shell",
+      "command": "hugo server --disableFastRender --environment production",
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "hugo",
+        "pattern": {
+          "regexp": "^(ERROR|WARN)\\s+(.*)$",
+          "severity": 1,
+          "message": 2
+        },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "^.*Building sites.*$",
+          "endsPattern": "^.*Web Server is available at.*$"
+        }
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "focus": false
+      }
+    },
+    {
+      "label": "Hugo: Build Site",
+      "type": "shell",
+      "command": "hugo --gc --minify",
+      "problemMatcher": {
+        "owner": "hugo",
+        "pattern": {
+          "regexp": "^(ERROR|WARN)\\s+(.*)$",
+          "severity": 1,
+          "message": 2
+        }
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Hugo: Build with Search Index",
+      "type": "shell",
+      "command": "hugo --minify && npx pagefind --site 'public'",
+      "problemMatcher": {
+        "owner": "hugo",
+        "pattern": {
+          "regexp": "^(ERROR|WARN)\\s+(.*)$",
+          "severity": 1,
+          "message": 2
+        }
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "Hugo: Clean Public Directory",
+      "type": "shell",
+      "command": "rm -rf public resources",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "silent",
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "Hugo: Check Config",
+      "type": "shell",
+      "command": "hugo config",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "Hugo: New Post",
+      "type": "shell",
+      "command": "hugo new",
+      "args": [
+        {
+          "value": "content/post/${input:postSlug}/_index.md",
+          "quoting": "escape"
+        }
+      ],
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "Go: Update Hugo Modules",
+      "type": "shell",
+      "command": "hugo mod get -u && hugo mod tidy",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "Setup: Bootstrap mise",
+      "type": "shell",
+      "command": "bash ${workspaceFolder}/.vscode/mise.bootstrap.sh",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "silent",
+        "panel": "shared",
+        "showReuseMessage": false,
+        "clear": false
+      },
+      "runOptions": {
+        "runOn": "folderOpen"
+      }
+    },
+    {
+      "label": "Setup: Install Tools with mise",
+      "type": "shell",
+      "command": "mise install",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    }
+  ],
+  "inputs": [
+    {
+      "id": "postSlug",
+      "type": "promptString",
+      "description": "Post slug (e.g., my-new-post)",
+      "default": "my-new-post"
+    }
+  ]
+}

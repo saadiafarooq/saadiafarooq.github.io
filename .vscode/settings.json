@@ -1,4 +1,5 @@
 {
+    // Spell checker custom words
     "cSpell.words": [
         "academicons",
         "Bahauddin",
@@ -9,15 +10,137 @@
         "devcontainers",
         "esbenp",
         "Farooq",
+        "frontmatter",
+        "hugoblox",
         "orcid",
+        "pagefind",
         "Saadia",
         "Shiung",
         "yzhang",
         "Zakariya",
         "znck"
     ],
+
+    // Mise tool paths (preserved from original)
     "debug.javascript.defaultRuntimeExecutable": {
         "pwa-node": "/Users/aimami/.local/share/mise/shims/node"
     },
-    "python.defaultInterpreterPath": "/Users/aimami/.local/share/mise/installs/python/3.13.3/bin/python"
+    "python.defaultInterpreterPath": "/Users/aimami/.local/share/mise/installs/python/3.13.3/bin/python",
+    "java.jdt.ls.java.home": "/Users/aimami/.local/share/mise/installs/java/temurin-21.0.4+7.0.LTS",
+    "java.import.gradle.java.home": "/Users/aimami/.local/share/mise/installs/java/temurin-21.0.4+7.0.LTS",
+
+    // Auto-run tasks on workspace open
+    "task.allowAutomaticTasks": "on",
+
+    // Hugo specific settings
+    "hugoLanguage.hugoVersion": "0.136.5",
+    "files.associations": {
+        "*.html": "html",
+        "*.md": "markdown"
+    },
+
+    // File exclusions for better performance
+    "files.exclude": {
+        "**/.hugo_build.lock": true,
+        "**/resources/_gen": true
+    },
+    "search.exclude": {
+        "**/public": true,
+        "**/resources": true,
+        "**/node_modules": true,
+        "**/.hugo_build.lock": true
+    },
+    "files.watcherExclude": {
+        "**/public/**": true,
+        "**/resources/**": true,
+        "**/node_modules/**": true
+    },
+
+    // Markdown settings
+    "markdown.validate.enabled": true,
+    "markdown.validate.fileLinks.enabled": "warning",
+    "markdown.validate.referenceLinks.enabled": "warning",
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "strings": "off",
+            "other": "on"
+        }
+    },
+
+    // YAML settings
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml",
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2
+    },
+    "yaml.schemas": {
+        "https://json.schemastore.org/hugo.json": "config/**/*.yaml"
+    },
+
+    // TOML settings
+    "[toml]": {
+        "editor.defaultFormatter": "tamasfe.even-better-toml"
+    },
+
+    // Git settings
+    "git.ignoreLimitWarning": true,
+    "git.detectSubmodules": true,
+
+    // Editor settings for content files
+    "editor.formatOnSave": false,
+    "editor.rulers": [80, 120],
+    "editor.wordWrap": "off",
+
+    // Terminal integration
+    "terminal.integrated.env.osx": {
+        "HUGO_ENVIRONMENT": "development"
+    },
+    "terminal.integrated.env.linux": {
+        "HUGO_ENVIRONMENT": "development"
+    },
+
+    // Front Matter CMS settings (if using)
+    "frontMatter.content.pageFolders": [
+        {
+            "title": "Posts",
+            "path": "[[workspace]]/content/post"
+        },
+        {
+            "title": "Authors",
+            "path": "[[workspace]]/content/authors"
+        },
+        {
+            "title": "Publications",
+            "path": "[[workspace]]/content/publication"
+        },
+        {
+            "title": "Projects",
+            "path": "[[workspace]]/content/project"
+        }
+    ],
+    "frontMatter.taxonomy.contentTypes": [
+        {
+            "name": "default",
+            "fields": [
+                {
+                    "title": "Title",
+                    "name": "title",
+                    "type": "string"
+                },
+                {
+                    "title": "Description",
+                    "name": "description",
+                    "type": "string"
+                },
+                {
+                    "title": "Date",
+                    "name": "date",
+                    "type": "datetime"
+                }
+            ]
+        }
+    ]
 }

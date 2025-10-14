@@ -1,0 +1,33 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch Hugo Server",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "hugo",
+      "runtimeArgs": [
+        "server",
+        "--disableFastRender",
+        "--buildDrafts",
+        "--buildFuture"
+      ],
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen"
+    },
+    {
+      "name": "Launch Hugo Server (Production)",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "hugo",
+      "runtimeArgs": [
+        "server",
+        "--disableFastRender",
+        "--environment",
+        "production"
+      ],
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen"
+    }
+  ]
+}
