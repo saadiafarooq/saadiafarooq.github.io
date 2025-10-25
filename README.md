@@ -35,7 +35,7 @@ Comprehensive documentation is available in the [`docs/`](./docs/) directory:
 
 ## Project Structure
 
-```
+```bash
 .
 ├── content/          # All website content (Markdown)
 ├── config/           # Site configuration
