@@ -22,6 +22,20 @@ removePathAccents: true
 
 build:
   writeStats: false
+  buildStats:
+    enable: true
+  cachebusters:
+    - source: 'assets/notwatching/hugo_stats\.json'
+      target: css
+    - source: '(postcss|tailwind)\.config\.js'
+      target: css
+module:
+  mounts:
+    - source: 'assets'
+      target: 'assets'
+    - disableWatch: true
+      source: 'hugo_stats.json'
+      target: 'assets/notwatching/hugo_stats.json'
 enableGitInfo: false
 summaryLength: 30
 pagination:
@@ -37,10 +51,10 @@ outputs:
   home: [HTML, RSS, headers, redirects, backlinks]
   section: [HTML, RSS]
 imaging:
-  resampleFilter: lanczos
+  resampleFilter: Lanczos
   quality: 80
-  anchor: smart
-timeout: 600000
+  anchor: Smart
+timeout: "600000s"
 taxonomies:
   author: authors
   tag: tags

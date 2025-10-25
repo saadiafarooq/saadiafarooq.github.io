@@ -3,6 +3,7 @@
     "cSpell.words": [
         "academicons",
         "Bahauddin",
+        "BGSU",
         "bierner",
         "blox",
         "bungcip",
@@ -142,5 +143,10 @@
                 }
             ]
         }
-    ]
+    ],
+    "go.goroot": "/Users/aimami/.local/share/mise/installs/go/1.24.3",
+    "go.alternateTools": {
+        "go": "/Users/aimami/.local/share/mise/shims/go",
+        "dlv": "/Users/aimami/.local/share/mise/shims/dlv"
+    }
 }
