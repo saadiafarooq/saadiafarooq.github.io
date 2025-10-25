@@ -1,5 +1,5 @@
 {
-    "name": "HugoBlox Academic CV DevContainer",
+    "name": "Academic Website DevContainer",
     "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
     "features": {
         "ghcr.io/devcontainers/features/common-utils:2": {},
@@ -43,7 +43,7 @@
     ],
     "portsAttributes": {
         "1313": {
-            "label": "HugoBlox server",
+            "label": "Hugo server",
             "onAutoForward": "openPreview"
         }
     },

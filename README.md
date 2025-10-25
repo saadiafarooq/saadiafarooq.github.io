@@ -1,51 +1,84 @@
-# [Hugo Academic CV Theme](https://github.com/HugoBlox/theme-academic-cv)
+# Saadia Farooq's Academic Website
 
-[![Screenshot](.github/preview.webp)](https://hugoblox.com/templates/)
+This repository contains the source code for Saadia Farooq's academic website, built with Hugo and deployed via GitHub Pages.
 
-The Hugo **Academic CV Template** empowers you to easily create your job-winning online resumé, showcase your academic publications, and create online courses or knowledge bases to grow your audience.
+## About
 
-[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://hugoblox.com/templates/)
-[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)  
-[![Twitter Follow](https://img.shields.io/twitter/follow/GetResearchDev?label=Follow%20on%20Twitter)](https://twitter.com/GetResearchDev)
+A professional academic website showcasing research, publications, teaching, and professional experience. Built with the Hugo static site generator for fast, secure, and maintainable web presence.
 
-️**Trusted by 250,000+ researchers, educators, and students.** Highly customizable via the integrated **no-code, Hugo Blox Builder**, making every site truly personalized ⭐⭐⭐⭐⭐
+## Quick Start
 
-Easily write technical content with plain text Markdown, LaTeX math, diagrams, RMarkdown, or Jupyter, and import publications from BibTeX.
+### For Content Editors
 
-[Check out the latest demo](https://academic-demo.netlify.app/) of what you'll get in less than 10 minutes, or [get inspired by our academics and research groups](https://hugoblox.com/creators/).
+1. **Open the workspace** in VS Code
+2. **Edit content** in the `content/` directory
+3. **Preview locally** by pressing `Cmd+Shift+B`
+4. **Publish** by committing and pushing changes
 
-The integrated [**Hugo Blox Builder**](https://hugoblox.com) and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
+📖 **[Read the Quick Start Guide](./docs/getting-started/quick-start.md)** for detailed instructions.
 
-- 👉 [**Get Started**](https://hugoblox.com/templates/)
-- 📚 [View the **documentation**](https://docs.hugoblox.com/)
-- 💬 [Chat with the **Hugo Blox Builder community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@GetResearchDev](https://twitter.com/GetResearchDev) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithHugoBlox](https://twitter.com/search?q=%23MadeWithHugoBlox&src=typed_query)
-- ⬇️ **Automatically import your publications from BibTeX** with the [Hugo Academic CLI](https://github.com/GetRD/academic-file-converter)
-- 💡 [Suggest an improvement](https://github.com/HugoBlox/hugo-blox-builder/issues)
-- ⬆️ **Updating?** View the [Update Guide](https://docs.hugoblox.com/reference/update/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
+### For Developers
 
-## We ask you, humbly, to support this open source movement
+The workspace includes automatic tool installation via mise. Simply open the workspace and click "Allow" when prompted.
 
-Today we ask you to defend the open source independence of the Hugo Blox Builder and themes 🐧
+📖 **[Read the Development Setup](./docs/development/setup.md)** for technical details.
 
-We're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.
+## Documentation
 
-### [❤️ Click here to become a Sponsor, unlocking awesome perks such as _exclusive academic templates and blocks_](https://hugoblox.com/sponsor/)
+Comprehensive documentation is available in the [`docs/`](./docs/) directory:
 
-<!--
-<p align="center"><a href="https://hugoblox.com/templates/" target="_blank" rel="noopener"><img src="https://hugoblox.com/uploads/readmes/academic_logo_200px.png" alt="Hugo Academic Theme for Hugo Blox Builder"></a></p>
--->
+- **[Getting Started](./docs/getting-started/)** - For first-time users
+- **[Editing Content](./docs/content-management/editing-content.md)** - Update existing content
+- **[Adding Content](./docs/content-management/adding-content.md)** - Create new posts, publications
+- **[Development](./docs/development/)** - For developers
+- **[Troubleshooting](./docs/development/troubleshooting.md)** - Common issues and solutions
 
-## Demo image credits
+## Project Structure
 
-- [Unsplash](https://unsplash.com)
+```
+.
+├── content/          # All website content (Markdown)
+├── config/           # Site configuration
+├── layouts/          # Custom templates
+├── static/           # Static files (images, PDFs)
+├── docs/             # Documentation
+└── .vscode/          # VS Code workspace configuration
+```
 
-## Latest news
+## Technology Stack
 
-<!--START_SECTION:news-->
-* [6 Compelling Reasons I Switched from WordPress to Hugo](https:&#x2F;&#x2F;hugoblox.com&#x2F;vs&#x2F;wordpress&#x2F;)
-* [The 7 best landing page builders in 2024](https:&#x2F;&#x2F;hugoblox.com&#x2F;blog&#x2F;7-best-landing-page-builders&#x2F;)
-* [Start a Blog and Make Money in 2024: Here&#39;s What You Need to Know](https:&#x2F;&#x2F;hugoblox.com&#x2F;blog&#x2F;start-a-blog-and-make-money&#x2F;)
-* [Hugo vs Quarto: Which One is Better for 2024?](https:&#x2F;&#x2F;hugoblox.com&#x2F;vs&#x2F;quarto&#x2F;)
-* [Easily make an academic CV website to get more cites and grow your audience 🚀](https:&#x2F;&#x2F;hugoblox.com&#x2F;blog&#x2F;easily-make-academic-website&#x2F;)
-<!--END_SECTION:news-->
+- **Hugo**: Static site generator (v0.136.5+)
+- **GitHub Pages**: Hosting
+- **GitHub Actions**: Automated deployment
+- **Pagefind**: Site search
+- **mise**: Development tool management
+
+## Deployment
+
+The site automatically deploys to GitHub Pages when changes are pushed to the `main` branch. Deployment typically takes 2-5 minutes.
+
+**Live site**: https://saadiafarooq.github.io/
+
+## Local Development
+
+### Prerequisites
+
+- VS Code
+- Git
+
+### Setup
+
+1. Clone this repository
+2. Open in VS Code
+3. Allow automatic tasks when prompted
+4. Tools install automatically
+5. Press `Cmd+Shift+B` to start the development server
+6. Visit `http://localhost:1313`
+
+See [Development Setup](./docs/development/setup.md) for detailed instructions.
+
+## License
+
+Content © Saadia Farooq. All rights reserved.
+
+Website code is based on the Hugo Academic template.

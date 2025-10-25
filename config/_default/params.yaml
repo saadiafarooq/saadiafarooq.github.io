@@ -1,6 +1,4 @@
 # SITE SETUP
-# Guide: https://docs.hugoblox.com/tutorial/
-# Documentation: https://docs.hugoblox.com/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Appearance
@@ -14,7 +12,7 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
+    description: 'Saadia Farooq - Graduate Research Assistant at Bowling Green State University. Research focus on interpersonal and family communication, art-based research, and immigrant experience.'
     twitter: ''
   analytics:
     google_analytics: ''
