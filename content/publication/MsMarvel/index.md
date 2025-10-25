@@ -16,7 +16,8 @@ publishDate: "2017-01-01T00:00:00Z"
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["article-journal"]
+publication_types:
+  - "article-journal"
 
 # Publication name and optional abbreviated publication name.
 publication: "*Journal of Underrepresented & Minority Progress, Special Issue on Intersectionality: From Theory to Practice*"
