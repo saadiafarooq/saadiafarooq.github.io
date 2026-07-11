@@ -31,8 +31,9 @@ sections:
           position: center
           parallax: false
   - block: markdown
+    id: research_interest
     content:
-      title: '📚 My Research'
+      title: 'Research Interests'
       subtitle: ''
       text: |-
         As a communication scholar, I investigate issues related to equity, diversity, and inclusion. My current research examines identity development and negotiation within immigrant families as well as in public contexts. Through this work, I explore how individuals navigate cultural identities, family relationships, and broader social environments. 

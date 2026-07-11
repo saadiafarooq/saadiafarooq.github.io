@@ -31,7 +31,7 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:'
+    url: 'mailto:contact@saadiafarooq.com'
     label: E-mail Me
   - icon: brands/x
     url: https://twitter.com/SaadiaFarooq
@@ -72,21 +72,13 @@ education:
     summary: |
       GPA: 3.4/4.0
       
-  - area: Global UGRAD Student Exchange Program
-    institution: The University of Toledo
-    date_start: 2013-08-11
-    date_end: 2013-12-31
-    summary: |
-      Spent time at the University of Toledo as an exchange student. Part of the
-      Global UGRAD program backed by the US State Department
-
 work:
   - position: Assistant Basic Course Director
     company_name: School of Media and Communication, Bowling Green State University
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01 #TODO Add the start date
-    date_end: ''
+    date_start: 2024-08-12 #TODO Add the start date
+    date_end: 2025-12-12
     summary: |2-
       Responsibilities include:
       - Provide mentoring and support for our COMM 1020 instructor team (e.g., answering questions/emails, sharing ideas and resources for teaching, and checking in with other team members to help build community).  
@@ -102,28 +94,12 @@ work:
     company_name: School of Media and Communication, Bowling Green State University
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01 #TODO Add the start date
-    date_end: ''
+    date_start: 2022-01-01 #TODO Add the start date
+    date_end: '2025-12-12'
     summary: |2-
       - Persuasion (Fall 2025)
       - Interpersonal Communication (Spring 2025)
       - Introduction to Public Speaking (Fall 2020 - Fall 2024)
-
-  - position: Summer Teacher
-    company_name: University of Toledo Early Learning Center
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01 #TODO Add the start date
-    date_end: ''
-    summary: ''
-
-  - position: Substitute Teacher
-    company_name: Toledo Public Schools
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01 #TODO Add the start date
-    date_end: ''
-    summary: ''
 
   - position: Freelance Book Compilation and Editing Service
     company_name: Dr. Amjad Hussain
@@ -148,46 +124,6 @@ work:
       - Edited and wrote original research and feature articles for the website
       - Managed a diverse and rotating team of writers, photographers and
         content creators for the website
-
-# Skills
-# Add your own SVG icons to `assets/media/icons/`
-skills:
-  - name: Technical Skills
-    items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
-
-languages:
-  - name: English
-    percent: 100
-  - name: Urdu
-    percent: 100
 
 # Awards.
 #   Add/remove as many awards below as you like.
