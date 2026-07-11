@@ -35,12 +35,10 @@ profiles:
     label: E-mail Me
   - icon: brands/x
     url: https://twitter.com/SaadiaFarooq
-  - icon: brands/instagram
-    url: https://www.instagram.com/
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/saadia-farooq/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://scholar.google.com/citations?user=3WbfXRcAAAAJ
   - icon: academicons/orcid
     url: https://orcid.org/0009-0007-8143-9275
 
