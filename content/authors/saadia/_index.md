@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: PhD Candidate and Asst. Basic Course Director
+role: PhD in Interpersonal and Family Communications
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
