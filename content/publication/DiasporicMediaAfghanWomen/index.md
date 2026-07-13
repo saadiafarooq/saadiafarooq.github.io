@@ -64,4 +64,13 @@ tags:
     - Covid Baby
 
 featured: true
+
+
+links:
+    - name: PDF
+      url: paper.pdf
+    - name: Link
+      url: https://www.degruyterbrill.com/document/doi/10.1515/omgc-2025-0073/html
+    - name: DOI
+      url: https://doi.org/10.1515/omgc-2025-0073
 ---

@@ -39,4 +39,12 @@ tags:
     - Covid Baby
 
 featured: true
+
+links:
+    # - name: PDF
+    #   url: paper.pdf
+    - name: Link
+      url: https://www.tandfonline.com/doi/abs/10.1080/10510974.2025.2524350
+    - name: DOI
+      url: https://doi.org/10.1080/10510974.2025.2524350
 ---

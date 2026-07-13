@@ -40,4 +40,12 @@ tags:
     - Marvel Cinematic Universe
 
 featured: true
+
+links:
+    - name: PDF
+      url: paper.pdf
+    - name: Link
+      url: https://www.ojed.org/jump/article/view/5928
+    - name: DOI
+      url: https://doi.org/10.32674/j4m0nb38
 ---

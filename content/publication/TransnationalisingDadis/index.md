@@ -37,4 +37,12 @@ tags:
     - Covid Baby
 
 featured: true
+
+links:
+    - name: PDF
+      url: paper.pdf
+    - name: Link
+      url: https://publications.azimpremjiuniversity.edu.in/6821/
+    - name: DOI
+      url: https://doi.org/10.20897/femenc/12886
 ---
