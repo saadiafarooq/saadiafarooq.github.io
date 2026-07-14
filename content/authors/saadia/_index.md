@@ -45,7 +45,9 @@ profiles:
 interests:
   - Interpersonal and Family Communication
   - Art-based Research
-  - Immigrant Experience
+  - Intercultural Identity
+  - Rhetorics
+  - Global Social Media Influencers
 
 education:
   - area: PhD Media and Communication
