@@ -51,24 +51,24 @@ education:
   - area: PhD Media and Communication
     institution: Bowling Green State University, Bowling Green, Ohio, USA
     date_start: 2022-01-01
-    date_end: 2025-12-31
+    date_end: 2026-05-31
     summary: |
-      Thesis on the immigrant experience of first and second generation pakistani-american
-      immigrants and identity building.
+      **Dissertation**: [Communication of Identity Across First, One-and-a-half, and Second-generation Pakistani Immigrant Parents And Children Through Retrospective Storytelling](http://rave.ohiolink.edu/etdc/view?acc_num=bgsu1775151301104797)
+  - area: Graduate Certificate in Women and Gender Studies
+    institution: Bowling Green State University, Bowling Green, Ohio, USA
+    date_start: 2024-08-01
+    date_end: 2025-05-31
+    summary:
   - area: MPhil Media and Communication
     institution: Bahauddin Zakariya University, Multan, Pakistan
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2014-08-01
+    date_end: 2016-05-31
     summary: |
-      GPA: 3.8/4.0
-
-      Thesis on narratives and counter-narratives about Malala Yousafzai
+      **Thesis**: The Narratives and Counter-Narratives Regarding Malala Yousafzai in Pakistani Print Media
   - area: BS Media and Communication
     institution: Bahauddin Zakariya University, Multan, Pakistan
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
+    date_start: 2010-08-01
+    date_end: 2014-05-31
       
 work:
   - position: Assistant Basic Course Director
