@@ -12,4 +12,4 @@ banner:
 
 * Public Speaking
 * Interpersonal Communication
-* Interview Taking
+* Interpersonal Communication and Interviewing
