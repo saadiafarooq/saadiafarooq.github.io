@@ -36,7 +36,7 @@ sections:
       title: 'Research Interests'
       subtitle: ''
       text: |-
-        As a communication scholar, I investigate issues related to equity, diversity, and inclusion. My current research examines identity development and negotiation within immigrant families as well as in public contexts. Through this work, I explore how individuals navigate cultural identities, family relationships, and broader social environments. 
+        As a communication scholar, I investigate issues related to equity, diversity, and inclusion. My current research examines identity development and negotiation within South Asian immigrant families. Through this work, I explore how individuals navigate cultural identities, family relationships, and broader social environments. 
 
         I am passionate about making social science and humanities research accessible to the public through Art based research (ABR), especially to the communities that can benefit most from it. I believe that research should extend beyond academic audiences and contribute to meaningful conversations and informed decision-making in everyday life. This commitment has led me to embrace the principles of accessible science communication. 
 
