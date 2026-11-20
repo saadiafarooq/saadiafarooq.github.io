@@ -1,4 +1,6 @@
 [tools]
-hugo-extended = "0.136.5"
 "npm:hugoblox" = "0.12.8"
+hugo-extended = "0.136.5"
+jactionlint = { version = "2.6.0", workflow = "release.yaml" }
+pinact = "5.0.2"
 python = "3.13"
