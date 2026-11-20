@@ -1,9 +1,9 @@
 ---
-title: "Transnationalising _Dadis_ as Feminist Political/Activist Subjects"
+title: "Transnationalising Dadis as Feminist Political/Activist Subjects"
 authors:
 - saadia
 author_notes:
-date: "2025-09-01T00:00:00Z"
+date: "2023-03-01T00:00:00Z"
 ids:
     doi: "https://doi.org/10.20897/femenc/12886"
 
@@ -29,20 +29,15 @@ abstract: |
 summary: ""
 
 tags: 
-    - Poetic inquiry
-    - poetic autoethnography
-    - identity, parenting
-    - motherhood
-    - mothers in higher education
-    - Covid Baby
+    - Digital Activism
+    - Muslim Feminism
+    - Subaltern Women
 
 featured: true
 
 links:
     - name: PDF
       url: paper.pdf
-    - name: Link
-      url: https://publications.azimpremjiuniversity.edu.in/6821/
     - name: DOI
       url: https://doi.org/10.20897/femenc/12886
 ---
