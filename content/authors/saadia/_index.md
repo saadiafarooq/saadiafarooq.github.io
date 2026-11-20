@@ -130,8 +130,9 @@ work:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Top Individual Paper in the Feminist and Gender Studies Division
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
+  - title: Top Individual Paper in the Feminist and Gender Studies Division;
+    date: ''
+    # url: https://www.coursera.org/learn/neural-networks-deep-learning
     awarder: National Communication Association
     # icon: coursera
     summary: |
