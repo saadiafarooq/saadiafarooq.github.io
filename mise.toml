@@ -4,3 +4,4 @@ hugo-extended = "0.136.5"
 jactionlint = { version = "2.6.0", workflow = "release.yaml" }
 pinact = "5.0.2"
 python = "3.13"
+go = "1.19"
