@@ -3,7 +3,7 @@ title: "Diasporic social media activism as discursive resistance: Afghan women c
 authors:
 - saadia
 author_notes:
-date: "2025-09-01T00:00:00Z"
+date: "2026-04-06T00:00:00Z"
 ids:
     doi: "https://doi.org/10.1515/omgc-2025-0073"
 
@@ -56,12 +56,12 @@ abstract: |
 summary: ""
 
 tags: 
-    - Poetic inquiry
-    - poetic autoethnography
-    - identity, parenting
-    - motherhood
-    - mothers in higher education
-    - Covid Baby
+    - Digital Diaspora
+    - Hashtag Activism
+    - Afghan Women
+    - Disrusive Cleansing
+    - Discursive Resistance
+    - Taliban
 
 featured: true
 
@@ -69,8 +69,6 @@ featured: true
 links:
     - name: PDF
       url: paper.pdf
-    - name: Link
-      url: https://www.degruyterbrill.com/document/doi/10.1515/omgc-2025-0073/html
     - name: DOI
       url: https://doi.org/10.1515/omgc-2025-0073
 ---
