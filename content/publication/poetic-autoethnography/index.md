@@ -3,7 +3,7 @@ title: "Poetic Autoethnography, a Path to Healing, a Way to Turn"
 authors:
 - saadia
 author_notes:
-date: "2025-09-01T00:00:00Z"
+date: "2025-07-03T00:00:00Z"
 ids:
     doi: "https://doi.org/10.1080/10510974.2025.2524350"
 
@@ -31,12 +31,12 @@ abstract: This essay reflects lived experiences revealing the interplay between 
 summary: ""
 
 tags: 
-    - Poetic inquiry
-    - poetic autoethnography
-    - identity, parenting
-    - motherhood
-    - mothers in higher education
-    - Covid Baby
+    - Poetic Inquiry
+    - Poetic Autoethnography
+    - Identity
+    - Motherhood
+    - Mothers in Higher Education
+    - Intercultural Identity
 
 featured: true
 
