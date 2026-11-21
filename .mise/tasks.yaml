@@ -1,0 +1,38 @@
+# Mise tasks for Hugo site deployment
+# This file defines tasks that can be run via `mise run task-name`
+
+# Build the Hugo site
+build:
+  description: Build the Hugo site
+  run: hugo --minify
+
+# Deploy the Hugo site to GitHub Pages
+deploy:
+  description: Deploy the Hugo site to GitHub Pages
+  run: |
+    # Build the site
+    mise run build
+
+    # Configure git
+    git config user.name "github-actions[bot]"
+    git config user.email "github-actions[bot]@users.noreply.github.com"
+
+    # Configure git for the gh-pages branch
+    git checkout -B gh-pages
+
+    # Remove existing content (keep .git)
+    git rm -rf .
+
+    # Copy built content to root
+    mv public/* .
+
+    # Commit and push
+    git add .
+    git commit -m "Deploy: Update site from ${{ github.sha }}"
+    git push origin gh-pages
+
+# Full deployment pipeline
+full-deploy:
+  description: Full deployment pipeline (build and deploy)
+  run: |
+    mise run deploy
