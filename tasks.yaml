@@ -1,0 +1,68 @@
+# Mise tasks for Hugo site build and deployment
+
+# Build Hugo site
+build:
+  description: Build Hugo site for production
+  run: hugo --minify
+
+# Build Hugo site with verbose output
+build-verbose:
+  description: Build Hugo site with verbose output
+  run: hugo --verbose
+
+# Deploy to GitHub Pages
+deploy:
+  description: Deploy Hugo site to GitHub Pages
+  run: |
+    hugo --minify
+    git add .
+    git commit -m "Deploy to GitHub Pages"
+    git push origin main
+
+# Deploy with custom message
+deploy-custom:
+  description: Deploy Hugo site with custom commit message
+  args:
+    - name: message
+      required: true
+      description: Custom commit message
+  run: |
+    hugo --minify
+    git add .
+    git commit -m "{{message}}"
+    git push origin main
+
+# Preview build (for testing)
+preview:
+  description: Build Hugo site for preview
+  run: hugo
+
+# Clean build artifacts
+clean:
+  description: Clean Hugo build artifacts
+  run: hugo clean
+
+# Serve Hugo site locally
+serve:
+  description: Serve Hugo site locally for development
+  run: hugo server --disableFastRender
+
+# Serve Hugo site with live reload
+serve-live:
+  description: Serve Hugo site with live reload
+  run: hugo server --disableFastRender --disableLiveReload
+
+# Build and check for errors
+check:
+  description: Build Hugo site and check for errors
+  run: hugo --minify --templateMetrics --templateMetricsHints
+
+# Generate sitemap
+sitemap:
+  description: Generate sitemap
+  run: hugo --minify --enableGitInfo
+
+# Generate RSS feed
+rss:
+  description: Generate RSS feed
+  run: hugo --minify --enableGitInfo
