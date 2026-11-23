@@ -21,7 +21,7 @@ jobs:
           install: true
 
       - name: Build site
-        run: mise run build
+        run: mise run build-site
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
@@ -39,4 +39,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-

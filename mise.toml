@@ -9,13 +9,13 @@ python = "3.13"
 
 [tasks.hugo-build]
 description = "Build Hugo site with minification"
-run = "hugo --minify"
+run = "hugo --gc --minify"
 
 [tasks.pagefind]
 description = "Generate search index with Pagefind"
 run = "pagefind --site ./public"
 
-[tasks.build-and-deploy]
+[tasks.build-site]
 description = "Build and deploy in one step"
 run = """
 mise run hugo-build
