@@ -1,0 +1,9 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/jdx/jactionlint/main/schema/jactionlint-config.json
+
+profile: default
+
+# Turn on the checks which query the GitHub API (impostor commits, known
+# vulnerable actions, archived repositories, ...).
+online: true
+
+generated-files: skip-policy
