@@ -6,3 +6,26 @@ hugo-extended = "0.136.5"
 jactionlint = { version = "2.6.0", workflow = "release.yaml" }
 pinact = "5.0.2"
 python = "3.13"
+
+[tasks.hugo-build]
+description = "Build Hugo site with minification"
+run = "hugo --minify"
+
+[tasks.pagefind]
+description = "Generate search index with Pagefind"
+run = "pagefind --site ./public"
+
+[tasks.deploy]
+description = "Deploy to GitHub Pages"
+run = """
+gh repo set-default
+gh pages deploy --source ./public --branch gh-pages
+"""
+
+[tasks.build-and-deploy]
+description = "Build and deploy in one step"
+run = """
+mise run hugo-build
+mise run pagefind
+mise run deploy
+"""
